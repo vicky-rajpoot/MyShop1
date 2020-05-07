@@ -49,6 +49,14 @@
       <Project>{119e44be-fcea-445e-a262-fdaf16e7de83}</Project>
       <Name>MyShop.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MyShop.DataAccess.SQL\MyShop.DataAccess.SQL.csproj">
+      <Project>{b313ebf8-4ad9-403e-89dd-2cfc65b9baf8}</Project>
+      <Name>MyShop.DataAccess.SQL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyShop.Services\MyShop.Services.csproj">
+      <Project>{4da719d7-6fef-4f64-8b0e-acbc22e1b92c}</Project>
+      <Name>MyShop.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

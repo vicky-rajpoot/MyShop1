@@ -41,7 +41,7 @@ namespace MyShop.DataAccess.InMemory
             }
             else
             {
-                throw new Exception("Product Nt Found");
+                throw new Exception("Product Not Found");
             }
         }
         public Product Find(string Id)
